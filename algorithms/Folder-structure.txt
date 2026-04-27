@@ -1,0 +1,27 @@
+algorithms/                     # repo root
+├─ README.md                    # 项目总览与学习/使用指南
+├─ CONTRIBUTING.md              # 可选：贡献规范
+├─ templates/                   # 模板（题目、代码、测试）
+│  ├─ problem-template.md
+│  └─ solution-template.py
+├─ docs/                        # 概念笔记、图表、证明
+│  ├─ complexity.md
+│  ├─ dp-patterns.md
+│  └─ graph-algorithms.md
+├─ problems/                    # 按主题和来源组织练习
+│  ├─ arrays/                   # topic folder
+│  │  ├─ 0001-two-sum.md
+│  │  └─ implementations/
+│  │     ├─ python/
+│  │     │  └─ 0001_two_sum.py
+│  │     └─ cpp/
+│  │        └─ 0001_two_sum.cpp
+│  ├─ dynamic-programming/
+│  └─ graphs/
+├─ patterns/                    # 解题模板/套路（滑动窗口、二分、贪心、DP）
+├─ data-structures/             # 抽象数据结构与实现
+│  ├─ union-find.md
+│  └─ segment-tree.md
+├─ projects/                    # 进阶项目 / 竞赛题目集 / 面试题目集
+├─ tests/                       # 单元测试与样例输入输出
+└─ scripts/                     # 辅助脚本，如批量运行、生成题目列表
